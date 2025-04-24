@@ -13,6 +13,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "serve": "live-server ./dist"
+    "show": "live-server ./dist --open=./main.html",
+    "start": "webpack serve --mode development --open main.html"
   }
 }
